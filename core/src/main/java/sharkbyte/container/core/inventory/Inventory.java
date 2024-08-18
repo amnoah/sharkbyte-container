@@ -44,7 +44,7 @@ public abstract class Inventory {
         if (PacketEvents.getAPI().getServerManager().getVersion().isNewerThanOrEquals(ServerVersion.V_1_14)) {
             user.writePacket(new WrapperPlayServerOpenWindow(
                     windowID,
-                    getWindowType(),
+                    getModernID(),
                     Component.text(title),
                     slots.size(),
                     true,
@@ -111,5 +111,5 @@ public abstract class Inventory {
 
     protected abstract String getLegacyName();
 
-    protected abstract int getWindowType();
+    protected abstract int getModernID();
 }
