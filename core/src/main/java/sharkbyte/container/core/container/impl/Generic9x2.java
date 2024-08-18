@@ -1,9 +1,9 @@
-package sharkbyte.container.core.inventory.impl;
+package sharkbyte.container.core.container.impl;
 
 import com.github.retrooper.packetevents.protocol.player.User;
-import sharkbyte.container.core.inventory.Inventory;
+import sharkbyte.container.core.container.Container;
 
-public class Generic9x2 extends Inventory {
+public class Generic9x2 extends Container {
 
     public Generic9x2(User user) {
         this(user, "");

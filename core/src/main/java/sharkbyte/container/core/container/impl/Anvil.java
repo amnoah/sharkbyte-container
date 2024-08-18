@@ -1,11 +1,11 @@
-package sharkbyte.container.core.inventory.impl;
+package sharkbyte.container.core.container.impl;
 
 import com.github.retrooper.packetevents.PacketEvents;
 import com.github.retrooper.packetevents.manager.server.ServerVersion;
 import com.github.retrooper.packetevents.protocol.player.User;
-import sharkbyte.container.core.inventory.Inventory;
+import sharkbyte.container.core.container.Container;
 
-public class Anvil extends Inventory {
+public class Anvil extends Container {
 
     public Anvil(User user) {
         this(user, "");

@@ -5,6 +5,14 @@ import com.github.retrooper.packetevents.protocol.player.User;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * This class tracks the latest windowID a player has been sent.
+ * We use the value before that to hopefully prevent conflicts.
+ *
+ * @Author: am noah
+ * @Since: 1.0.0
+ * @Updated: 1.0.0
+ */
 public class WindowIDTracker {
 
     private final static Map<User, Integer> WINDOW_ID_MAP = new HashMap<>();
