@@ -1,0 +1,8 @@
+name: sb-container-example
+version: 1.0.0
+author: am noah
+description: An example of sharkbyte-container in work.
+api-version: 1.13
+main: sharkbyte.container.example.ContainerExample
+depend:
+  - packetevents
